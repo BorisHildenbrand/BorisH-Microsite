@@ -1,0 +1,68 @@
+.body {
+    */ margin: 0;
+    font-family: Haettenschweiler;
+}
+
+.grid-align {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    justify-items: center;
+    align-items: baseline;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    color: lightsteelblue;
+    background-image: url(Weide-Fluß.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    text-shadow: 0 0 10px black;
+}
+
+.text-center {
+    text-align: right;
+}
+
+.grid-align-multi {
+    display: grid;
+
+    grid-template-columns: 20rem 20rem;
+    grid-template-rows: 20rem 20rem;
+
+    justify-items: center;
+    align-items: center;
+}
+
+.col-1 {
+    background-color: red;
+}
+
+.col-2 {
+    background-color: rebeccapurple;
+}
+
+.col-3 {
+    background-color: gold;
+}
+
+.col-4 {
+    background-color: green;
+
+}
+
+.grid2 {
+
+    display: grid;
+
+    grid-template-columns: 10rem 10rem 10rem;
+    grid-template-rows: 10rem 10rem 10rem;
+
+}
+
+.col-5 {
+    background-color: royalblue;
+}
+
+.col-6 {
+    background-color: violet;
+}
